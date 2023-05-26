@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+}
+h1 p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.welcome {
+  margin:0;
+  margin-top: 200px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.login-container {
+  background-color: white;
+  color: black;
+  width: 480px;
+  height: 300px;
+  margin: 0 auto 50px; 
+}
+
+.login-input{
+  border: none;
+  outline: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  height: 48px;
+  width: 480px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  /* margin-left: 25px;
+  margin-right: 25px; */
+  color: #888;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.login-label {
+  font-size: 30px;
+  margin-left: 25px;
+
+}
+
+.login-button {
+  background-color: red;
+  margin-left: 75px;
+  margin-right: 75px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.login-form-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 900px;
+  width:50%;
+  margin-left:0;
+  margin-top:0;
+}
+
+.login-image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:50%;
+  height: 900px;
+  margin-left: auto;
+  margin-right:0;
+  margin-top:0;
+}
+
+.login-form-text {
+  width: 480px;
+  margin: auto;
+}
+
+.login-page{
+  position: relative;
+}
+
+.login-image {
+  object-fit: cover;
+  width: 100%
+}
+
+.logo {
+  position: absolute;
+  width: 169px;
+  left: 60px;
+}
+
+.tm {
+  position: absolute;
+  left: 60px;
+  top: 600px;
+  color: #444444;
+  font-size: 12px;
+}
+
+.searchInput {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 120px 20px 20px 200px;
+  box-sizing: border-box;
+}
+
+.searchButton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #cf2f2f;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.logoutPos{
+
+  position:fixed;
+  right:10px;
+  top:5px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  background-color: #ddd8d8;
+  border: none;
+  color: #161515;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 100px;
+}
+
+.logoutPos:hover{
+  background-color: #d32e18; /* Green */
+  color: white;
+}
+
+.right {
+  float: left;
+  width: 200px;
+  border: 1px solid #41423f;
+  border-style: groove;
+  border-radius: 4px;
+  padding: 12px;
+  list-style-type: none;
+  margin:20px 10px 10px 30px;
+  text-align: left;
+  
+  
+  }
+  .right:hover{
+    background-color: #99aebc77; 
+    color: rgb(17, 17, 17);
+  }
+
+.header{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: #111111; 
+    font-size: 38px; 
+    font-family: 'Signika', sans-serif; 
+  }
+
+  .background{
+    background-color: #dadbdb8c;
+  }
+
+.profile-info {
+  position: relative;
+  width: 480px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 7px;
+  color: black;
+  border: 1px solid #bdbdbd;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.profile-item{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.back-button {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  background-color: black;
+  font-weight: bolder;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+}
+
+.back-button:hover{
+  background-color: grey;
+  color: white;
+}
+
+.profile-header {
+  margin-left: 25px;
+  margin-top: 25px;
+  padding-top:25px;
+}
+
+.edit-button {
+  border: none;
+  position: absolute;
+  background-color: white;
+  width: 23px;
+  padding: 0px;
+  border-bottom: 1px solid black;
+  top: 40px;
+  right: 25px;
+}
+.edit-button:hover{
+  color: red;
+  border-color: red;
+}
+
+.save-button {
+  border: none;
+  position: absolute;
+  background-color: white;
+  width: 30px;
+  padding: 0px;
+  border-bottom: 1px solid black;
+  top: 40px;
+  right: 25px;
+}
+
+.save-button:hover{
+  color: green;
+  border-color: green;
+}
+
+.profile-page {
+  position: relative;
+}
+
+.profile-logo {
+  position: absolute;
+  width: 169px;
+  left: 60px;
+  top: -100px;
+}
+
